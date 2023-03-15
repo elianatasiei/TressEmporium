@@ -20,13 +20,13 @@ Having a repository for my code was crucial to the success of this project. Even
 
 Although this website is currently in its early stages, I plan to continue working on it and adding new features over time. Some of the improvements I would like to make include:
 
-Adding more content to the website, such as a gallery of hair styles and information about the salon's services
+- Adding more content to the website, such as a gallery of hair styles and information about the salon's services
 
-Improving the website's accessibility and ensuring it meets web standards
+- Improving the website's accessibility and ensuring it meets web standards
 
-Optimizing the website's performance and load times
+- Optimizing the website's performance and load times
 
-Making the website mobile-friendly and responsive to different screen sizes
+- Making the website mobile-friendly and responsive to different screen sizes
 
 ## Conclusion
 
