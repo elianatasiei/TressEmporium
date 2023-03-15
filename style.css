@@ -1,0 +1,174 @@
+/* Reset */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Global styles */
+body,
+footer {
+  box-sizing: border-box;
+  font-family: "Lora", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header,
+footer,
+div.contact {
+  clear: both;
+}
+
+h1,
+main p {
+  color: rgb(255, 255, 255);
+}
+
+/* Header */
+#logo img {
+  float: left;
+  width: 40%;
+}
+
+nav,
+main {
+  height: 0;
+}
+
+nav,
+a {
+  width: 100%;
+  float: right;
+  color: rgb(65, 66, 65);
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+  width: 50%;
+  margin-top: 3%;
+}
+
+nav ul li {
+  float: right;
+  margin-inline-end: 5%;
+}
+
+ul {
+  size: large;
+  padding-top: 10px;
+  width: 50%;
+}
+
+/* Main content */
+main {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 10%;
+  text-align: center;
+  align-content: center;
+  font-size: larger;
+  background-image: linear-gradient(
+      rgba(250, 243, 239),
+      rgba(102, 93, 93, 0.5),
+      rgb(250, 243, 239)
+    ),
+    url("images/other/hairsalon.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: -webkit-sticky;
+}
+
+main h1,
+main p {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main p {
+  padding: 2.5% 0%;
+}
+
+button {
+  width: 50%;
+  align-items: center;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: transparent;
+  font-family: "Lora", serif;
+  font-size: x-large;
+  transition-duration: 0.4s;
+  color: white;
+  padding: 10px 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #ffffff2b;
+  color: rgb(65, 66, 65);
+}
+
+/* Services section */
+div.services {
+  padding-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(248, 243, 238);
+}
+
+.services {
+  color: rgb(65, 66, 65);
+  gap: 20px; /* add some space between each service */
+}
+
+.services section {
+  max-width: 400px;
+  max-height: 400px; /* set a maximum width for each service */
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s ease-in-out;
+}
+
+.services section:hover {
+  background-color: #f7f7f7;
+  color: #333;
+  transform: scale;
+}
+
+footer {
+  background-color: rgba(247, 243, 239, 0.5);
+  height: 0 auto;
+  width: 100%;
+  align-self: center;
+  padding: 20px;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-size: 14px;
+  color: #666;
+}
+
+.contact-info {
+  margin-bottom: 10px;
+}
+
+.contact-info h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.contact-info p {
+  margin: 0;
+}
