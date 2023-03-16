@@ -42,7 +42,6 @@ main {
 nav,
 a {
   width: 100%;
-  display: flex;
   float: right;
   color: rgb(65, 66, 65);
 }
@@ -172,30 +171,4 @@ footer {
 
 .contact-info p {
   margin: 0;
-}
-@media screen and (max-width: 600px) {
-  nav {
-    flex-direction: column;
-  }
-
-  nav ul {
-    display: none;
-  }
-
-  nav ul li {
-    text-align: center;
-    margin: 10px;
-  }
-
-  nav ul li a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #000;
-  }
-
-  .icon {
-    display: block;
-    cursor: pointer;
-  }
 }
