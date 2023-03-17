@@ -14,7 +14,8 @@ Throughout the process, I learned a lot about how to create responsive layouts, 
 
 ## Why Having a Repo Is Important
 
-Having a repository for my code was crucial to the success of this project. Even though I did not keep track of my changes for this project, I understand its importance and how easier it would be to revert back to previous versions if necessary. I also now understand how it would help collaborating with others and getting feedback on my work.
+Having a repository for my code was crucial to the success of this project. Even though I did not keep track of all my changes as I made progress in the project, I understand its importance and how easier it would be to revert back to previous versions if necessary, and will be doing that from now on.  
+I also now understand how it can help collaborating with others and getting feedback on my work.
 
 ## Future Changes and Updates
 
