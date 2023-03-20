@@ -2,6 +2,7 @@
 html,
 body {
   margin: 0;
+  width: 100%;
   padding: 0;
   height: 100%;
 }
@@ -39,8 +40,15 @@ main {
   height: 0;
 }
 
-nav,
-a {
+.navbar {
+  height: 15%;
+  background: linear-gradient(135deg, #dfd9d5 0%, #dfd9d5 50%, #c5c5c5 100%);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav a {
   width: 100%;
   float: right;
   color: rgb(65, 66, 65);
@@ -55,6 +63,7 @@ nav ul {
 
 nav ul li {
   float: right;
+  gap: 5;
   margin-inline-end: 5%;
 }
 
@@ -81,7 +90,7 @@ main {
       rgba(102, 93, 93, 0.5),
       rgb(250, 243, 239)
     ),
-    url("images/other/hairsalon.jpeg");
+    url("/html/images/other/hairsalon.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -145,7 +154,7 @@ div.services {
 .services section:hover {
   background-color: #f7f7f7;
   color: #333;
-  transform: scale;
+  transform: translateY(-10px); /* move the element up by 2 pixels */
 }
 
 footer {

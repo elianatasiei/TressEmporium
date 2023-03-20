@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/AboutUs.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
@@ -14,27 +15,25 @@
 
 <header>
             <!-- Nav bar -->
-        <nav> 
-                <img id="logo" src="images/brand/cover-PhotoRoom.png" height='100' alt="logo image"></img>
+        <nav class="navbar"> 
+                <img id="logo" src="/html/images/brand/cover-PhotoRoom.png" height='100' alt="logo image"></img>
                 <ul>
-                  <li><a href='#booking'>Book</a></li>
-                  <li><a href='#services'>Services</a></li>
-                  <li><a href='#contact'>Contact</a></li>
+                  <li><a href='pages/AboutUs.html'>About us</a></li>
+                  <li><a href='#services'>Services</a></li>  <!--will redirect to js event for scrolling when clicked -->
+                  <li><a href='#contact'>Contact</a></li> <!--will redirect to js event for scrolling when clicked -->
                 </ul>
         </nav>
 </header>
+<main>
 
-<body>
-            <!--Main-->
- <main> 
-    <h1 class="booking-section" id="booking">Welcome to Tress Emporium Beauty Co.</h1>
-    <p>Welcome to our hairdressing salon - a place where self-love begins with a new hairstyle. Our skilled stylists are passionate about bringing out the beauty in every person.
-        We believe that feeling good about yourself starts with your hair, and our friendly atmosphere is designed to make you feel confident and comfortable. 
-        Come and experience the magic of our salon, and let us help you fall in love with yourself.</p>
-    <button>Book a consultation today</button>
- </main>
+    <div class="about">
+        <h1>About us</h1>
+        <p>Established in 2009, Tress Emporium Beauty Co has been providing top-quality hair care services in Hampshire for 14 years. We pride ourselves on our exceptional customer service and our team of experienced stylists who are passionate about making our clients look and feel their best.<br>
+            <br>
+        At Tress Emporium Beauty Co, we believe that hair is an art form, and we approach each client's hair with the care and precision of a master artist. We use only the highest-quality products to ensure that your hair is healthy, shiny, and gorgeous.</p>
+    </div>       
+</main>
 
-            <!-- services -->
 <div class="services" id="services">  
     <!-- first pair-->
         <section class="haircut">

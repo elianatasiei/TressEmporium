@@ -1,15 +1,7 @@
-/* Just a little bit of Javascript for a smooth scrolling, so when nav items are clicked it smoothly
-goes into respective section*/
+/* Implementation of Javascript for a smooth scrolling when links / buttons are clicked, moving to respective section */
 
-const bookingLink = document.querySelector('a[href="#booking"]');
 const servicesLink = document.querySelector('a[href="#services"]');
 const contactLink = document.querySelector('a[href="#contact"]');
-
-bookingLink.addEventListener("click", () => {
-  document.querySelector("#booking").scrollIntoView({
-    behavior: "smooth",
-  });
-});
 
 servicesLink.addEventListener("click", () => {
   document.querySelector("#services").scrollIntoView({
