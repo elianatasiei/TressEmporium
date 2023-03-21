@@ -41,8 +41,14 @@ main {
 }
 
 .navbar {
-  height: 15%;
-  background: linear-gradient(135deg, #dfd9d5 0%, #dfd9d5 50%, #c5c5c5 100%);
+  z-index: 1;
+  height: 13%;
+  background: rgba(247, 243, 239, 0.39);
+  border-radius: 1px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px);
+  border: 1px solid rgba(247, 243, 239, 0.39);
   position: fixed;
   top: 0;
   width: 100%;
@@ -138,12 +144,12 @@ div.services {
 
 .services {
   color: rgb(65, 66, 65);
-  gap: 20px; /* add some space between each service */
+  gap: 20px;
 }
 
 .services section {
   max-width: 400px;
-  max-height: 400px; /* set a maximum width for each service */
+  max-height: 400px;
   background-color: #f7f7f7;
   padding: 20px;
   text-align: center;
@@ -154,7 +160,7 @@ div.services {
 .services section:hover {
   background-color: #f7f7f7;
   color: #333;
-  transform: translateY(-10px); /* move the element up by 2 pixels */
+  transform: translateY(-10px);
 }
 
 footer {
