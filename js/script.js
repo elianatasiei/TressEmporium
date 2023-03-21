@@ -1,4 +1,3 @@
-/* Implementation of Javascript for a smooth scrolling when links / buttons are clicked, moving to respective section */
 "use scrict";
 
 /* lets content of page load before navbar event */
@@ -17,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }, 300);
     }
   });
-
+  /* double click on navbar scrolls page to top */
   var lastClickTime = 0;
 
   navbar.addEventListener("click", function () {
@@ -37,6 +36,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
+/* smooth scrolling when nav links buttons are clicked, scrolling to respective section */
 
 const servicesLink = document.querySelector('a[href="#services"]');
 const contactLink = document.querySelector('a[href="#contact"]');
